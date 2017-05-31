@@ -1,0 +1,44 @@
+/*style.css*/
+
+body {
+	background-color: #c8c8c8;
+}
+
+h1{
+	color: black;
+	text-align: center;
+}
+
+h2{
+	color: red;
+}
+
+h3{
+	color: blue;
+}
+
+.container {
+	 width: 100%;
+	 background-color: lightblue;
+	}
+
+#crystal-image{
+
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+
+}
+
+#text{
+	padding: 05px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: left;
+	line-height: 25px;
+}
+
+
+
+f

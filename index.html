@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <title> Crystal Game </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="annonymous">
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+<link rel="stylesheet" href="assets/css/style.css">
+ 
+<head>
+	<h1>Welcome to the Crystal Game!</h1>
+
+
+
+</head>
+
+<body>
+<div class = "container">
+	<div class = "row">
+    <div class = "panel"
+    
+      <p class = "text">You will be given a random number at the start of the game.
+    
+      There are four crystals below.  By clicking on a crystal you will add a speific amount of points to your total score. 
+      </p>
+      <p class = "text">You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+       </p>
+      <p class = "text">The value of each crystal is hidden from you until you click on it.
+       </p>
+      Each time when the game starts, the game will change the values of each crystal.
+      </p>
+      </div>
+    </div>
+</div>
+
+    </div>
+	<h2>Match This Number: <span class = "yourNumber"></span></h2>
+	<h3>This is your current number: <span class = "yourGuess"></span></h3>
+	 	<div class = "col-md-12">
+			<!-- <div class="jumbotron"> -->
+
+				  <div class = "col-md-3">
+  				<img class = "blueCrystal" src = "assets/images/blue.jpg" class = "img0-responsive" alt = "Pic of blue crystal" id = "crystal-image"></div>
+
+  				<div class = "col-md-3">
+  				<img class = "greenCrystal" src = "assets/images/green.jpeg" class = "img0-responsive" alt = "Pic of green crystal" id = "crystal-image"></div>
+
+  				<div class = "col-md-3">
+  				<img class = "purpleCrystal" src = "assets/images/purple.jpg" class = "img0-responsive" alt = "Pic of purple crystal" id = "crystal-image"></div>
+
+  				<div class = "col-md-3">
+  				<img class = "redCrystal" src = "assets/images/red.jpeg" class = "img0-responsive" alt = "Pic of red crystal" id = "crystal-image"></div>
+
+  			<!-- </div> -->
+  		</div>
+  	</div>	
+  	<div>
+  	<br>
+  	<br>
+  	<br>
+  	<br>
+  	<p>Wins: <span id = "wins">0</span></p>
+  	<p>Losses:<span id = "losses">0</span></p>
+  	</div>	
+</div>
+
+</body>
+<script src="assets/javascript/game.js"></script>
+</html>
